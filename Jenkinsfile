@@ -59,7 +59,7 @@ pipeline {                                    			// 1  // Defines the start of t
                           "files": [
                             {
                               "pattern": "jarstaging/(*)",
-                              "target": "sai-libs-snapshot-local/{1}",
+                              "target": "sai-libs-release-local/{1}",
                               "flat": "false",
                               "props": "${properties}",
                               "exclusions": [ "*.sha1", "*.md5"]
